@@ -6,6 +6,11 @@ coding camp for USACO bronze
   ```bash
   xcode-select --install
   ```
+* if use linux (ubuntu), using terminal install the follow package
+  ```bash
+  sudo apt update
+  sudo apt install build-essential
+  ```  
 * install "single file execution" plugin in CLion.
     ![plugin](doc/images/single_file_plugin.png)
 * create code template in CLion `editor > File and code templates`
