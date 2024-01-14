@@ -6,8 +6,18 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen(".in", "r", stdin);
-    freopen(".out", "w", stdout);
+    int numTestCases;
+    cin >> numTestCases;
+    for (int i = 0; i < numTestCases; ++i) {
+        int aliceCoin, bobCoin;
+        cin >> aliceCoin >> bobCoin;
+
+        if ((aliceCoin + bobCoin) % 2 == 0) {
+            cout << "Bob" << endl;
+        } else {
+            cout << "Alice" << endl;
+        }
+    }
 
     return 0;
 }
